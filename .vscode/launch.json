@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Workload Generator",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/main.go",
+      "args": [
+        "-uri", "mongodb+srv://spg123450_db_user:bfg7QkwpI6HcN2lI@cluster0.r5y45bf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+        "-tps", "1500",
+        "-batch", "50",
+        "-workers", "16",
+        "-doc-size", "1024"
+      ]
+    }
+  ]
+}

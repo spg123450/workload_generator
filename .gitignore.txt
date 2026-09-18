@@ -1,0 +1,11 @@
+# Binaries
+*.exe
+workload_gen
+workload_gen.exe
+
+# OS / Tooling
+.DS_Store
+Thumbs.db
+
+# VS Code (Optional: exclude if it contains plaintext passwords)
+.vscode/
